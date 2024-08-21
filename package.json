@@ -1,0 +1,35 @@
+{
+  "name": "petjournal",
+  "version": "0.1.0",
+  "description": "Journal all the furbaby things",
+  "main": "server.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --env-file dev.env src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beninseattle/petjournal.git"
+  },
+  "author": "Benjamin Adair",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/beninseattle/petjournal/issues"
+  },
+  "homepage": "https://github.com/beninseattle/petjournal#readme",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "express": "^4.19.2",
+    "express-validator": "^7.2.0",
+    "helmet": "^7.1.0",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/ajv": "^1.0.0",
+    "@types/express": "^4.17.21",
+    "@types/sequelize": "^4.28.20",
+    "@types/sqlite3": "^3.1.11",
+    "tsx": "^4.17.0"
+  }
+}
